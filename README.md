@@ -6,3 +6,5 @@
 ## 使用效果展示
 
 ![](./_gifs/py_logging_lib_1.gif)
+
+![](./_gifs/py_logging_lib_2.gif)
