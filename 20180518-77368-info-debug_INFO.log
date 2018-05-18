@@ -1,0 +1,5 @@
+INFO 2018-05-18 16:22:46,105 1526631766.105695 DEBUGGER __main__ 77368 70940 __main__.py 22 test_func ==== test_func start. args is: [1, 10]====
+INFO 2018-05-18 16:22:49,106 1526631769.106329 DEBUGGER __main__ 77368 70940 __main__.py 25 test_func RUNNING
+INFO 2018-05-18 16:22:49,106 1526631769.106329 DEBUGGER __main__ 77368 70940 __main__.py 27 test_func START CALL FUNCTION
+INFO 2018-05-18 16:22:49,106 1526631769.106329 DEBUGGER __main__ 77368 70940 __main__.py 29 test_func GOT RESULT. ['HELLO-WORLD FROM logginglib_project.business_layer.core.CoreUtils#get_hellowolrd']
+INFO 2018-05-18 16:22:49,106 1526631769.106329 DEBUGGER __main__ 77368 70940 __main__.py 31 test_func WILL RETURN VALUE.
