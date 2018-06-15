@@ -19,6 +19,13 @@ from .business_layer import core
 
 
 def test_func(a, b):
+    """this is the doc string
+
+    :param a:
+    :param b:
+    :return:
+    """
+    # pylint: disable=invalid-name,logging-not-lazy
     log_factory.DEBUGGER.info('==== test_func start. args is: %s====' % [a, b])
 
     time.sleep(3)
@@ -33,6 +40,10 @@ def test_func(a, b):
 
 
 def main():
+    """doc string
+
+    :return:
+    """
     test_func(1, 10)
 
     return 0

@@ -68,8 +68,6 @@ class _LogFactory:
                            '%(filename)s %(lineno)s %(funcName)s %(message)s')
             }
 
-            # ? 使用UTC时间!!!
-
         },
 
         # 针对 LogRecord 的筛选器
@@ -147,6 +145,6 @@ class _LogFactory:
     def get_logger(cls, logger_name):
         return logging.getLogger(logger_name)
 
+
 BUSINESS_LOGGER = logging.getLogger('logginglib_project.business_layer')
 DEBUGGER = logging.getLogger('DEBUGGER')
-
